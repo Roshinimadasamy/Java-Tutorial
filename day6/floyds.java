@@ -1,0 +1,13 @@
+package day6;
+
+public class floyds {
+    public static void main(String[]args){
+        for(int i=1;i<=11;i++){
+            int num=1;
+            for(int j=1;j<=i;j++){
+                System.out.print(num++);
+            }
+            System.out.println();
+        }
+    }
+}
